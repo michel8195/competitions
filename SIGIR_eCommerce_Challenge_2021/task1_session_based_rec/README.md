@@ -14,6 +14,7 @@ This repo includes Python code, scripts and instructions on how to run the pre-p
 
 ## Baseline Models
 Simple reference baselines are available in the [baselines](baselines/) folder. The `popularity_baseline.py` script demonstrates predicting the most popular items for every session.
+An additional example using [PyTorch Lightning](https://www.pytorchlightning.ai/) can be found under [`lightning_baseline`](lightning_baseline/). It separates dataset loading, model definition and the training loop for improved clarity.
 
 
 ## Setup the environment
