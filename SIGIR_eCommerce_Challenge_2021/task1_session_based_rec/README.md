@@ -12,6 +12,10 @@ This repo includes Python code, scripts and instructions on how to run the pre-p
   <font size="1">Fig. 1 - Our base Transformer architecture</font>
 </p>
 
+## Baseline Models
+Simple reference baselines are available in the [baselines](baselines/) folder. The `popularity_baseline.py` script demonstrates predicting the most popular items for every session.
+
+
 ## Setup the environment
 
 The next sections describe two alternatives to setup the environment to run the pipelines: Docker and Conda.
